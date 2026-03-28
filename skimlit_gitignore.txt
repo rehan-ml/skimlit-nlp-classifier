@@ -1,0 +1,35 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Saved models & weights
+*.h5
+*.keras
+*.pb
+saved_model/
+skimlit_tribrid_model*
+skimlit_gs_model/
+
+# Downloaded dataset
+pubmed-rct/
+*.zip
+
+# TensorFlow / training logs
+training_logs/
+
+# Downloaded files (auto-fetched in notebook)
+helper_functions.py
+skimlit_example_abstracts.json
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+.env/
